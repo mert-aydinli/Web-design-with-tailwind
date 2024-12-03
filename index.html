@@ -70,11 +70,14 @@
      </header>
 
     <!-- Hero Section -->
-     <section>
+     <section class="flex flex-col gap-6">
+       <!-- Hero Picture mobile version -->
+       <div class="flex w-full h-[280px] tablet:hidden bg-cover bg-left bg-no-repeat" style="background-image: url(images/car-front.png);">
+       </div>
        <!-- Hero Container -->
-       <div class="container flex px-10 large:px-20 relative justify-between">
+       <div class="container flex flex-col tablet:flex-row px-10 large:px-20 relative justify-between">
         <!-- Main Title And Under Titles, Buttons -->
-        <div class="flex flex-col text-center tablet:text-left items-center tablet:items-start py-6 laptop:py-12 large:py-16 xl:py-20 gap-6 laptop:gap-6 large:gap-10 xl:gap-12 basis-full tablet:basis-1/2 tablet:w-[240px] tablet:h-[360px] laptop:w-[440px] laptop:h-[560px] large:w-[540px] large:h-[660px] xl:w-[640px] xl:h-[760px]">
+        <div class="flex flex-col text-left  items-start py-6 laptop:py-12 large:py-16 xl:py-20 gap-6 laptop:gap-6 large:gap-10 xl:gap-12 basis-full tablet:basis-1/2 tablet:w-[240px] tablet:h-[360px] laptop:w-[440px] laptop:h-[560px] large:w-[540px] large:h-[660px] xl:w-[640px] xl:h-[760px]">
           
           <!-- Main Title-->
           <div>
@@ -84,7 +87,7 @@
           </div>
 
           <!-- Under Title And Button #1 -->
-          <div class="flex flex-col items-center tablet:items-start gap-2 laptop:gap-4">
+          <div class="flex flex-col items-start gap-2 laptop:gap-4">
             <h3 class="font-inter font-medium text-sm laptop:text-lg large:text-xl xl:text-2xl text-customgray-900 leading-5 laptop:leading-6 xl:leading-8 tracking-normal">Deal with the seller<br>
               <span class="text-customgray-500">and buy your dream car</span>
             </h3>
@@ -98,7 +101,7 @@
           </div>
 
           <!-- Under Title And Button #2 -->
-          <div class="flex flex-col items-center tablet:items-start gap-2 laptop:gap-4">
+          <div class="flex flex-col items-start gap-2 laptop:gap-4">
             <h3 class="font-inter font-medium text-sm laptop:text-lg large:text-xl xl:text-2xl text-customgray-900 leading-5 laptop:leading-6 xl:leading-8 tracking-normal">Let’s start<br>
               <span class="text-customgray-500">exploring adverts</span>
             </h3>
@@ -112,7 +115,7 @@
           </div>
 
           <!-- Under Title And Button #3 -->
-          <div class="flex flex-col items-center tablet:items-start gap-2 laptop:gap-4">
+          <div class="flex flex-col items-start gap-2 laptop:gap-4">
             <h3 class="font-inter font-medium text-sm laptop:text-lg large:text-xl xl:text-2xl text-customgray-900 leading-5 laptop:leading-6 xl:leading-8 tracking-normal">Review our<br>
               <span class="text-customgray-500">account packages</span>
             </h3>
@@ -126,6 +129,7 @@
           </div>
     
         </div> 
+
 
 
         <!-- Hero Picture -->
@@ -1262,7 +1266,10 @@
      </section>
 
     <!-- Second Section -->
-     <section class="border-b  border-customgray-200">
+     <section class="flex flex-col gap-6 border-b  border-customgray-200">
+        <!-- Second Section Picture -->
+        <div class="flex tablet:hidden w-full h-[280px] bg-cover bg-right bg-no-repeat" style="background-image: url(images/cartrunk.png);">
+        </div>
         <!-- Second Section Container -->
         <div class="container flex px-10 large:px-20">
 
@@ -1271,16 +1278,16 @@
           </div>
   
          <!-- Main Title And Under Titles, Buttons -->
-          <div class="flex flex-col text-center tablet:text-right items-center tablet:items-end  py-6 laptop:py-12 large:py-16 xl:py-20 gap-6 laptop:gap-6 large:gap-10 xl:gap-12 basis-full tablet:basis-1/2 tablet:w-[240px] tablet:h-[360px] laptop:w-[440px] laptop:h-[560px] large:w-[540px] large:h-[660px] xl:w-[640px] xl:h-[760px]">
+          <div class="flex flex-col text-right items-end  py-6 laptop:py-12 large:py-16 xl:py-20 gap-6 laptop:gap-6 large:gap-10 xl:gap-12 basis-full tablet:basis-1/2 tablet:w-[240px] tablet:h-[360px] laptop:w-[440px] laptop:h-[560px] large:w-[540px] large:h-[660px] xl:w-[640px] xl:h-[760px]">
            <!-- Main Title-->
-           <div class="text-center tablet:text-end">
+           <div class="text-end">
                <h1 class="font-inter font-medium text-lg laptop:text-[28px] large:text-[32px] xl:text-custom40px text-customgray-900 leading-6 laptop:leading-8 large:leading-10 xl:leading-12 tracking-normal">Do you want to sell your car<br>
                  <span class="text-customgray-500">customers are waiting for you</span>
                </h1>
            </div>
  
            <!-- Under Title And Button #1 -->
-           <div class="flex flex-col items-center tablet:items-end gap-2 laptop:gap-4 text-center tablet:text-end">
+           <div class="flex flex-col items-end gap-2 laptop:gap-4 text-end">
              <h3 class="font-inter font-medium text-sm laptop:text-lg large:text-xl xl:text-2xl text-customgray-900 leading-5 laptop:leading-6 xl:leading-8 tracking-normal">Create your ad easily and quickly<br>
                <span class="text-customgray-500">start getting quotes from customers</span>
              </h3>
@@ -1294,7 +1301,7 @@
            </div>
  
            <!-- Under Title And Button #2 -->
-           <div class="flex flex-col items-center tablet:items-end gap-2 laptop:gap-4 text-center tablet:text-end">
+           <div class="flex flex-col items-end gap-2 laptop:gap-4 text-end">
              <h3 class="font-inter font-medium text-sm laptop:text-lg large:text-xl xl:text-2xl text-customgray-900 leading-5 laptop:leading-6 xl:leading-8 tracking-normal">If you're wondering or<br>
                <span class="text-customgray-500">don't understand how it works</span>
              </h3>
@@ -1308,7 +1315,7 @@
            </div>
  
            <!-- Under Title And Button #3 -->
-           <div class="flex flex-col items-center tablet:items-end gap-2 laptop:gap-4 text-center tablet:text-end">
+           <div class="flex flex-col items-end gap-2 laptop:gap-4 text-end">
              <h3 class="font-inter font-medium text-sm laptop:text-lg large:text-xl xl:text-2xl text-customgray-900 leading-5 laptop:leading-6 xl:leading-8 tracking-normal">Choose the package<br>
                <span class="text-customgray-500">that suits your plan and get started</span>
              </h3>
